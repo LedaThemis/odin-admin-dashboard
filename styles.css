@@ -1,6 +1,11 @@
 html {
   font-family: Roboto, sans-serif;
 }
+/* MAIN */
+#main {
+  padding: 20px;
+  background-color: #e2e8f0;
+}
 
 /* PROJECTS SECTION */
 #projects {
