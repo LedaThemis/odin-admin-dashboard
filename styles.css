@@ -199,6 +199,13 @@ body {
   grid-area: TRENDING;
 }
 
+#people {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px grey;
+}
+
 /* PERSON CARD */
 .person {
   display: flex;
