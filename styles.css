@@ -2,6 +2,16 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+/* PROJECT CARD */
+.project {
+  display: flex;
+  flex-direction: column;
+}
+
+.project > .buttons {
+  align-self: end;
+}
+
 /* PERSON CARD */
 .person {
   display: flex;
