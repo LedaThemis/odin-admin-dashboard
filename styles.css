@@ -28,6 +28,7 @@ body {
   align-items: flex-start;
   gap: 20px;
 
+  padding-left: 1rem;
   background-color: #178fd2;
   color: white;
 
