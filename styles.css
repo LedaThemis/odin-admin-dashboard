@@ -138,11 +138,11 @@ body {
 }
 
 #text--content > h1 {
-  line-height: 0;
+  margin: 0;
 }
 
 #text--content > h3 {
-  line-height: 0;
+  margin: 0;
 }
 
 #action--buttons {
@@ -193,6 +193,10 @@ body {
   align-self: end;
 }
 
+.project > h3 {
+  margin: 0;
+}
+
 /* ANNOUNCEMENTS SECTION */
 #announcements--container {
   grid-area: ANNOUNCEMENTS;
@@ -234,8 +238,9 @@ body {
 }
 
 .person--description > h3 {
-  line-height: 0.5;
+  margin: 0;
 }
 .person--description > p {
   color: rgb(73, 73, 73);
+  margin: 0;
 }
