@@ -93,10 +93,12 @@ body {
   flex-grow: 1;
 }
 #search {
-  resize: none;
+  border: none;
   border-radius: 1rem;
   background-color: #e2e8f0;
 
+  height: 2rem;
+  padding-left: 0.5rem;
   width: 75%;
 }
 
