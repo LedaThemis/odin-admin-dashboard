@@ -190,6 +190,14 @@ body {
 #announcements--container {
   grid-area: ANNOUNCEMENTS;
 }
+
+#announcements {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 1px 1px 5px grey;
+}
+
 .announcement > p {
   color: rgb(73, 73, 73);
 }
