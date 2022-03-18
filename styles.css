@@ -150,6 +150,18 @@ body {
   gap: 1.5rem;
 }
 
+#action--buttons > button {
+  color: white;
+  background-color: #178fd2;
+  border: none;
+  width: 6rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 /* MAIN */
 #main {
   grid-area: MAIN;
