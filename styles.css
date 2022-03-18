@@ -193,6 +193,11 @@ body {
   align-self: end;
 }
 
+.buttons > button {
+  border: none;
+  background-color: white;
+}
+
 .project > h3 {
   margin: 0;
 }
