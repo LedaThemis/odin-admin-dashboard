@@ -155,9 +155,22 @@ body {
   grid-area: MAIN;
   padding: 20px;
   background-color: #e2e8f0;
+
+  display: grid;
+  grid-template-columns: 0.7fr 0.3fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-template-areas:
+    "PROJECTS ANNOUNCEMENTS"
+    "PROJECTS TRENDING";
+
+  gap: 2rem;
 }
 
 /* PROJECTS SECTION */
+#projects--container {
+  grid-area: PROJECTS;
+}
+
 #projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -174,8 +187,16 @@ body {
 }
 
 /* ANNOUNCEMENTS SECTION */
+#announcements--container {
+  grid-area: ANNOUNCEMENTS;
+}
 .announcement > p {
   color: rgb(73, 73, 73);
+}
+
+/* TRENDING SECTION */
+#trending--container {
+  grid-area: TRENDING;
 }
 
 /* PERSON CARD */
