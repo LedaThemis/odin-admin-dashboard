@@ -2,6 +2,11 @@ html {
   font-family: Roboto, sans-serif;
 }
 
+body {
+  margin: 0;
+  height: 100vh;
+}
+
 /* NAVBAR */
 #nav {
   display: flex;
@@ -11,6 +16,8 @@ html {
 
   background-color: #178fd2;
   color: white;
+
+  height: 100%;
 }
 
 #nav img {
