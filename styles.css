@@ -50,6 +50,89 @@ body {
   font-weight: 600;
   font-size: 1.2rem;
 }
+/* HEADER */
+#header {
+  padding: 1rem 2rem;
+}
+
+#header--top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+#header--bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#searchbar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  flex-grow: 1;
+}
+#search {
+  resize: none;
+  border-radius: 1rem;
+  background-color: #e2e8f0;
+
+  width: 75%;
+}
+
+#user--section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#profile > img {
+  width: 4rem;
+  border-radius: 2rem;
+}
+
+#profile > p {
+  font-weight: 600;
+}
+
+#welcome--section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+#welcome--section > img {
+  width: 6rem;
+  border-radius: 3rem;
+}
+
+#text--content {
+  display: flex;
+  flex-direction: column;
+}
+
+#text--content > h1 {
+  line-height: 0;
+}
+
+#text--content > h3 {
+  line-height: 0;
+}
+
+#action--buttons {
+  display: flex;
+  gap: 1.5rem;
+}
 
 /* MAIN */
 #main {
