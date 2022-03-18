@@ -173,13 +173,20 @@ body {
 
 #projects {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+  gap: 2rem;
 }
 
 /* PROJECT CARD */
 .project {
   display: flex;
   flex-direction: column;
+
+  background-color: white;
+  padding: 2rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 5px grey;
 }
 
 .project > .buttons {
