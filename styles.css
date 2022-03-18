@@ -18,6 +18,11 @@ html {
   align-self: end;
 }
 
+/* ANNOUNCEMENTS SECTION */
+.announcement > p {
+  color: rgb(73, 73, 73);
+}
+
 /* PERSON CARD */
 .person {
   display: flex;
