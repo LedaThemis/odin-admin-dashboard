@@ -11,8 +11,18 @@ button {
   cursor: pointer;
 }
 
+body {
+  display: grid;
+  grid-template-columns: 0.15fr 0.85fr;
+  grid-template-rows: 0.2fr 0.8fr;
+  grid-template-areas:
+    "NAV HEADER"
+    "NAV MAIN";
+}
+
 /* NAVBAR */
 #nav {
+  grid-area: NAV;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -56,6 +66,7 @@ button {
 }
 /* HEADER */
 #header {
+  grid-area: HEADER;
   padding: 1rem 2rem;
 }
 
@@ -140,6 +151,7 @@ button {
 
 /* MAIN */
 #main {
+  grid-area: MAIN;
   padding: 20px;
   background-color: #e2e8f0;
 }
